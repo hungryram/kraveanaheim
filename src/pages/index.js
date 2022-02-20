@@ -8,7 +8,8 @@ import Seo from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <Seo title="Home" />
+    <Seo title="Krave Nutrition Anaheim"
+    description="Krave Nutrition is a healthy beverage bar that serves drinks which not only satisfies your taste buds, it also hits the requirements to fuel your body with the best nutrition!" />
     <div className={`uk-visible@m uk-background-norepeat uk-background-cover uk-background-center-center uk-flex uk-flex-middle ${styles.hero}`} data-uk-height-viewport>
 		<div className="uk-width-1-1">
 			<div className="uk-container uk-container-large">
