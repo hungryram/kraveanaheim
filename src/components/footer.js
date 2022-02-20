@@ -18,7 +18,7 @@ export default function Footer() {
             <div className="uk-section">
                 <div className="uk-container uk-container-large">
                     <div className="uk-grid-large uk-grid-margin-large uk-grid" data-uk-grid>
-                        <div className="uk-width-1-2@m uk-first-column">
+                        <div className="uk-width-1-2@m">
                             <div className="uk-margin">
                                 <a className="el-link" href="https://demo.yootheme.com/wordpress/themes/yoko/?page_id=1">
                                     <StaticImage
@@ -39,7 +39,7 @@ export default function Footer() {
                             </div>
                         </div>
 
-                        <div className="uk-width-1-2 uk-width-1-4@m">
+                        <div className="uk-width-1-2@s">
                             <h2 className="uk-h3">Contact</h2>
                             <ul className="uk-list footer__icons">
                                 <li class="uk-margin-medium-bottom"><a href={`mailto: ${info.office}`}><FaPhoneAlt /> {info.office}</a></li>
@@ -47,7 +47,7 @@ export default function Footer() {
                                 <li class="uk-margin-medium-bottom"><a href="https://goo.gl/maps/LQb3gUybZSZTDFfR9" target="_blank"><FaLocationArrow /> {info.address}, {info.city}, {info.state} {info.zip_code}</a></li>
                             </ul>
                         </div>
-                        <div className="uk-width-1-2 uk-width-1-4@m">
+                        <div className="uk-width-1-2@s">
                             <h2 className="uk-h3">Hours</h2>
                             <p>
                                 Mon-Fri: 7am-4pm
