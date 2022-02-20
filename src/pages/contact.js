@@ -44,22 +44,19 @@ export default function Contact() {
                                     <input name="bot-field" type="hidden" />
                                     <input type="hidden" name="Subject" value="Website Contact Form" />
                                     <div className="uk-width-1-2@s">
-                                        <input className="uk-input" type="text" name="Name" id="uk-input-name" placeholder="Name" required />
+                                        <input className="uk-input" type="text" name="Name" placeholder="Name" required />
                                     </div>
                                     <div className="uk-width-1-2@s">
-                                        <input className="uk-input" type="text" name="Phone" id="uk-input-phone" placeholder="Phone" required />
+                                        <input className="uk-input" type="text" name="Phone" placeholder="Phone" required />
                                     </div>
                                     <div className="uk-width-1-1">
-                                        <input className="uk-input" type="email" id="input-email" name="Email" placeholder="Email" required />
+                                        <input className="uk-input" type="email" name="Email" placeholder="Email" required />
                                     </div>
                                     <div className="uk-width-1-1">
-                                        <textarea className="uk-textarea" rows="5" id="textarea-info" name="Message" placeholder="Message"></textarea>
+                                        <textarea className="uk-textarea" rows="5" name="Message" placeholder="Message"></textarea>
                                     </div>
                                     <div className="uk-width-1-1">
                                         <button className="uk-button uk-button-primary uk-width-1-1">Submit</button>
-                                    </div>
-                                    <div className="uk-width-1-1">
-                                        {/* <p>By submitting the form with your information above you are agreeing to our <a href="/legal/terms-and-conditions">Terms and Conditions</a> and <a href="/legal/privacy-policy">Privacy Policy</a></p> */}
                                     </div>
                                 </form>
                             </div>
