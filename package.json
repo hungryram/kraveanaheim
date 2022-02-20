@@ -7,7 +7,9 @@
   "dependencies": {
     "@react-icons/all-files": "^4.1.0",
     "gatsby": "^4.7.2",
+    "gatsby-plugin-canonical-urls": "^4.7.0",
     "gatsby-plugin-gatsby-cloud": "^4.7.0",
+    "gatsby-plugin-google-analytics": "^4.7.0",
     "gatsby-plugin-image": "^2.7.0",
     "gatsby-plugin-manifest": "^4.7.0",
     "gatsby-plugin-offline": "^5.7.0",
