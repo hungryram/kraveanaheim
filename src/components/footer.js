@@ -23,7 +23,8 @@ export default function Footer() {
                                 <a className="el-link" href="https://demo.yootheme.com/wordpress/themes/yoko/?page_id=1">
                                     <StaticImage
                                         src="../images/krave-logo-full.png"
-                                        width="150"
+                                        alt="Krave Nutrition Anaheim Logo"
+                                        width={150}
                                     />
                                 </a>
 
@@ -58,6 +59,9 @@ export default function Footer() {
                         <div className="uk-grid-item-match uk-flex-bottom uk-width-1-2@s">
                             <div className="uk-panel uk-width-1-1">
                                 <p>&copy; Copyright {new Date().getFullYear()} &middot; Built by <Link to="https://www.hungryram.com/" className="uk-link-reset">Hungry Ram Web Design</Link></p>
+                            </div>
+                            <div>
+
                             </div>
                         </div>
                     </div>

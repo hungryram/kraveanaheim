@@ -1,5 +1,4 @@
 import * as React from "react"
-import PropTypes from "prop-types"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import { RiMenu5Line } from "@react-icons/all-files/ri/RiMenu5Line"
@@ -16,7 +15,9 @@ export default function Header() {
                   <Link className="uk-navbar-item uk-logo" to="/">
                     <StaticImage
                       src="../images/krave-logo-full.png"
-                      width="150"
+                      placeholder="blurred"
+                      width={150}
+                      alt="Krave Nutrition Anaheim Logo"
                     />
                   </Link>
                 </div>
@@ -50,7 +51,9 @@ export default function Header() {
                         <a href="/">
                             <StaticImage
                               src="../images/krave-logo-full.png"
-                              width="120"
+                              placeholder="blurred"
+                              alt="Krave Nutrition Anaheim Logo"
+                              width={100}
                             />
                         </a>
                     </div>

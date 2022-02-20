@@ -59,7 +59,7 @@ export default function Contact() {
                                         <button className="uk-button uk-button-primary uk-width-1-1">Submit</button>
                                     </div>
                                     <div className="uk-width-1-1">
-                                        <p>By submitting the form with your information above you are agreeing to our <a href="/legal/terms-and-conditions">Terms and Conditions</a> and <a href="/legal/privacy-policy">Privacy Policy</a></p>
+                                        {/* <p>By submitting the form with your information above you are agreeing to our <a href="/legal/terms-and-conditions">Terms and Conditions</a> and <a href="/legal/privacy-policy">Privacy Policy</a></p> */}
                                     </div>
                                 </form>
                             </div>

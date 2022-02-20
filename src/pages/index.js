@@ -26,7 +26,7 @@ const IndexPage = () => (
 			</div>
 		</div>
 	</div>
-	<div className={`uk-hidden@m uk-background-norepeat uk-background-cover uk-background-center-center uk-flex uk-flex-middle ${styles.mobileHero}`} data-uk-height-viewport>
+	<div className={`uk-hidden@m uk-background-cover ${styles.mobileHero}`} data-uk-height-viewport>
 		<div className="uk-position-bottom">
 			<div className="uk-section uk-section-large">
 				<div className="uk-container">
