@@ -1,0 +1,12 @@
+.hero {
+    background: url("../images/krave-exploding-background-drink.jpg") no-repeat center;
+}
+
+.mobile-hero {
+    background: url("../images/krave-exploding-background-drink.jpg") no-repeat center;
+    background-size:cover;
+}
+
+.featured {
+    background: #75dbdf;
+}
