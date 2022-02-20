@@ -3,10 +3,15 @@ import { graphql, Link } from "gatsby"
 import Layout from "../components/layout"
 import * as styles from "../styles/menu.module.css"
 import PageBanner from "../components/pagebanner"
+import Seo from "../components/seo"
 
 export default function Menu({ data }) {
     return (
         <Layout>
+            <Seo 
+                title="Krave Nutrition Shake Menu | Krave Nutrition"
+                description="View delicious nutritional shake menu at our Anaheim location. Choose from power teas and shake add-ons."
+            />
             <PageBanner pageTitle="Krave Nutrition Menu"/>
             <div className="uk-section">
                 <div className="uk-container uk-container-small">
