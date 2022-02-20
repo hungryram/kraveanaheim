@@ -2,6 +2,7 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
+import { RiMenu5Line } from "@react-icons/all-files/ri/RiMenu5Line"
 
 export default function Header() {
   return (
@@ -43,7 +44,7 @@ export default function Header() {
       </div>
 
 
-      <div data-uk-sticky="animation: uk-animation-slide-top-medium; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-dark; cls-inactive:uk-navbar-transparent; top: 400">
+      <div>
                 <nav className="uk-navbar uk-container uk-hidden@m uk-box-shadow-small">
                     <div className="uk-navbar-left">
                         <a href="/">
@@ -54,7 +55,9 @@ export default function Header() {
                         </a>
                     </div>
                     <div className="uk-navbar-right">
-                        <a className="uk-navbar-toggle" data-uk-navbar-toggle-icon data-uk-toggle="target: #mobile-menu"></a>
+                        <a className="uk-navbar-toggle" data-uk-toggle="target: #mobile-menu">
+                            <RiMenu5Line />
+                        </a>
                     </div>
                 </nav>
 

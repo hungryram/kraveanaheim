@@ -79,6 +79,11 @@ div.uk-offcanvas-bar a.uk-h3:hover {
     color: #58d0da;
 }
 
+a.uk-navbar-toggle svg {
+    width: 30px;
+    color: #000;
+}
+
 
 ul.uk-navbar-nav>li>a:not(.top-navbar a) {
     font-family: 'Bebas Neue', cursive;
