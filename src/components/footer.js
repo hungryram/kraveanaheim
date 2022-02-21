@@ -50,8 +50,8 @@ export default function Footer() {
                         <div className="uk-width-1-4@s">
                             <h2 className="uk-h3">Hours</h2>
                             <p>
-                                Mon-Fri: 7am-4pm
-                                Sat: 8am-2pm
+                                Mon-Fri: 7am-4pm<br/>
+                                Sat: 8am-2pm<br/>
                                 Sun: Closed
                             </p>
                         </div>
